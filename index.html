@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category tabs</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="page-heading">SELECT YOUR CHOICE</h1>
+    </header>
+
+    <div id="tabs" class="tabs">
+        <button class="tab active" data-category="Men">
+            <img src="./assets/male.svg" alt="Male Icon" class="icon"> Men
+        </button>
+        <button class="tab" data-category="Women">
+            <img src="./assets/female.svg" alt="Female Icon" class="icon"> Women
+        </button>
+        <button class="tab" data-category="Kids">
+            <img src="./assets/child.svg" alt="Child Icon" class="icon"> Kids
+        </button>
+    </div>
+
+    <div class="product-container" id="product-container"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
